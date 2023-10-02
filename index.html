@@ -14,12 +14,12 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@600&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" />
 </head>
- 
+
 <body style="width: 1990px; height: 4298px;; float: left;">
   <div class="portfolio">
     <img class="background-icon" alt="" src="./public/background.svg" />
 
-    <img class="gradient-icon" alt="" src="./public/gradient.svg" />
+    <img id="project-section" class="gradient-icon" alt="" src="./public/gradient.svg" />
 
     <img class="gradient-icon1" alt="" src="./public/gradient1.svg" />
 
@@ -51,12 +51,22 @@
     </div>
     <div class="webhr-logo-vectorized"></div>
     <div class="header">
-    <div class="about">About</div>
-    <div class="ex">Experience</div>
-    <div class="pro">Project</div>
-    <div class="cont">Contact</div>
+      <div class="about" onclick="scrollToSection('about-section')">About</div>
+      <div class="ex" onclick="scrollToSection('experience-section')">Experience</div>
+      <div class="pro" onclick="scrollToSection('project-section')">Project</div>
+      <div class="cont" onclick="scrollToSection('contact-section')">Contact</div>
 
-  </div>
+    </div>
+
+    <script>
+      function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    </script>
+
 
     <div class="im-a-android">I'm a Android Developer.|</div>
     <div class="judges-a-book-container">
@@ -79,8 +89,14 @@
       problem-solving skills and ability to work collaboratively to achieve
       project objectives.
     </div>
-    <div class="work-experience">Work Experience</div>
-    <div class="hello-i-am-container">
+
+
+    <div id="experience-section" class="work-experience">Work Experience</div>
+
+
+
+
+    <div id="about-section" class="hello-i-am-container">
       <span class="hello-i-am-container1">
         <span>Hello! I Am </span>
         <span class="cover">Gajanan Palepwad</span>
@@ -90,7 +106,7 @@
 
     <img class="portfolio-child" alt="" src="./public/ellipse-5.svg" />
 
-    <div class="contact">Contact</div>
+    <div id="contact-section" class="contact">Contact</div>
     <div class="im-currently-looking-container">
       <p class="linkedin">
         I'm currently looking to join a cross-functional team that values
@@ -142,7 +158,8 @@
       <div class="a-web-app-container">
         <p class="linkedin">
           Developed an app from scratch for my college that provides access to important info
-such as admit cards, results, and other usefulresources, the app's user-friendly interface and seamless functionality, resulting its passing 1,000 downloads on Playstore.
+          such as admit cards, results, and other usefulresources, the app's user-friendly interface and seamless
+          functionality, resulting its passing 1,000 downloads on Playstore.
         </p>
       </div>
       <div class="example-project">Android app for college information system</div>
@@ -158,9 +175,11 @@ such as admit cards, results, and other usefulresources, the app's user-friendly
 
       <div class="a-web-app-container1">
         <p class="linkedin">
-          Developed an application called ”Daily Bites”, which connects users with local mess owners to provide a monthly subscription plan. With "Daily Bites," users can savor a variety of delicious cuisines while promoting sustainability and engagement in their neighborhood.
+          Developed an application called ”Daily Bites”, which connects users with local mess owners to provide a
+          monthly subscription plan. With "Daily Bites," users can savor a variety of delicious cuisines while promoting
+          sustainability and engagement in their neighborhood.
         </p>
-        
+
       </div>
       <div class="example-project1">Monthly subscription-based food app</div>
       <div class="featured-project1">Featured Project</div>
