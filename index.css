@@ -100,7 +100,7 @@
   left: 0;
   background-color: #1a0b2e;
   box-shadow: 0 6px 22px -3px rgba(0, 0, 0, 0.1);
-  width: 1980px;
+  width: 100%;
   height: 113px;
 }
 .about,
@@ -306,7 +306,7 @@
   top: 81px;
   left: 198px;
   font-size: var(--font-size-5xs);
-  line-height: 10.5px;
+  line-height: 15.5px;
   font-weight: 500;
   width: 232px;
   height: 48px;
@@ -907,14 +907,14 @@
   line-height: 32.5px;
   font-weight: 600;
   display: inline-block;
-  width: 256px;
+  width: 400px;
   height: 24px;
 }
 .take-your-client-container3 {
   top: 80.96px;
   left: 196px;
   font-size: var(--font-size-5xs);
-  line-height: 10.5px;
+  line-height: 15.5px;
   font-weight: 500;
   width: 232px;
   height: 48px;
