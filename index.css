@@ -103,8 +103,8 @@
   width: 100%;
   height: 113px;
 }
-.about,
-.home {
+.ex,
+.about {
   top: 43px;
   font-size: var(--font-size-xl);
   font-weight: 600;
@@ -113,27 +113,44 @@
   justify-content: center;
   height: 27px;
 }
-.home {
+.about {
   position: absolute;
-  left: 1111px;
+  left: 1000px;
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
   width: 66px;
 }
-.about {
-  left: 1345px;
+.ex {
+  left: 1180px;
   width: 68px;
 }
-.about,
+.ex,
 .im-a-android,
-.lab {
+.pro {
   position: absolute;
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
 }
-.lab {
+.pro {
+  top: 43px;
+  left: 1380px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-plus-jakarta-sans);
+  text-align: center;
+  justify-content: center;
+  width: 49px;
+  height: 27px;
+}
+.cont {
+  position: absolute;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+}
+.cont {
   top: 43px;
   left: 1581px;
   font-size: var(--font-size-xl);
@@ -577,7 +594,8 @@
 .featured-project1 {
   position: absolute;
   top: 19px;
-  left: 382px;
+  left: 174px;
+  text-align: end;
   font-size: var(--font-size-15xl);
   letter-spacing: 0.02em;
   font-weight: 600;
