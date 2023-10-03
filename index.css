@@ -23,7 +23,7 @@
 .gradient-icon2 {
   top: 2571px;
   left: 1084px;
-} 
+}
 .gradient-icon3,
 .gradient-icon4 {
   position: absolute;
@@ -51,6 +51,7 @@
   top: 3330px;
   left: 460px;
 }
+
 .developed-webhr-landing,
 .im-a-software,
 .im-a-software1 {
@@ -104,6 +105,9 @@
   height: 113px;
   user-select: none;
 }
+/* .header:hover{
+  color: #38126d;
+} */
 .ex,
 .about {
   top: 43px;
@@ -114,6 +118,10 @@
   justify-content: center;
   height: 27px;
 }
+/* .ex,
+.about :hover{
+  color: #00a3ff;
+} */
 .about {
   position: absolute;
   left: 1000px;
@@ -121,10 +129,19 @@
   display: flex;
   align-items: center;
   width: 66px;
+  transition: font-size 0.3s ease;
+}
+.about:hover{
+  font-size:x-large;
+  
 }
 .ex {
   left: 1180px;
   width: 68px;
+  transition: font-size 0.3s ease;
+}
+.ex:hover{
+  font-size:x-large;
 }
 .ex,
 .im-a-android,
@@ -144,6 +161,10 @@
   justify-content: center;
   width: 49px;
   height: 27px;
+  transition: font-size 0.3s ease;
+}
+.pro:hover{
+  font-size:x-large;
 }
 .cont {
   position: absolute;
@@ -161,11 +182,15 @@
   justify-content: center;
   width: 49px;
   height: 27px;
+  transition: font-size 0.3s ease;
+}
+.cont:hover{
+  font-size:x-large;
 }
 .im-a-android {
   top: 661px;
   left: 474px;
-  width: 674px;
+  width: 774px;
 }
 .cover {
   color: var(--color-darkorchid);
@@ -977,7 +1002,9 @@
   left: 486px;
   width: 104px;
   height: 99px;
+  transition: font-size 0.3s ease;
 }
+
 .portfolio {
   position: relative;
   background-color: var(--color-white);
