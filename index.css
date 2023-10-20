@@ -1,3 +1,7 @@
+body {
+  position: absolute;
+}
+
 .background-icon,
 .gradient-icon {
   position: absolute;
@@ -1015,4 +1019,27 @@
   font-size: var(--font-size-31xl);
   color: var(--color-white);
   font-family: var(--font-preahvihear);
+}
+
+.contactMe {
+  /* this div contains the social icons */
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  z-index: 100;
+  left: 460px;
+  bottom: 210px;
+}
+
+.contactInstagram, .contactLinkedin, .contactYoutube, .contactGithub {
+  display: inline;
+  height: 40px;
+  z-index: 200;
+  background-color: white;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+.contactInstagram {
+  border: none;
 }
