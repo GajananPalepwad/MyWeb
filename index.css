@@ -326,9 +326,14 @@ body {
 .mask-group-child {
   position: absolute;
   top: -4.04px;
-  left: -74.25px;
+  /* previous style:  */
+  /* width: 643.11px;  */
+  /* left: -74.25px; */
+
+  /* new:  */
+  width: 570px;
+  left: 0; 
   background-color: var(--color-indigo);
-  width: 643.11px;
   height: 8.08px;
 }
 .mask-group {
@@ -977,14 +982,14 @@ body {
   font-size: var(--font-size-3xs);
 }
 .experience-child4,
-.experience3 {
+.experience3, .experience5 {
   position: absolute;
   top: 48.96px;
   left: 59px;
   width: 119.99px;
   height: 98px;
 }
-.experience3 {
+.experience3, .experience5 {
   top: 1251px;
   left: 1053px;
   width: 570px;
@@ -992,6 +997,26 @@ body {
   font-size: var(--font-size-7xl);
   font-family: var(--font-poppins);
 }
+
+.experience5{
+  position: absolute;
+  top: 1500px;
+  left: 790px;
+  width: 570px;
+  height: 192.68px;
+  font-size: var(--font-size-7xl);
+  font-family: var(--font-poppins);
+}
+
+.width-for3rd {
+  position: absolute;
+  top: -4.04px;
+  left: 0px;
+  background-color: var(--color-indigo);
+  width: 570px;
+  height: 8.08px;
+}
+
 .untitled12-1-icon,
 .untitled12-2-icon {
   position: absolute;
