@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@300;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.scroller {
+    /* less images, so we reduced width to 40%, if we have more we can inc this  */
+    width: 40%;
+    margin: auto;
+    height: 300px;
+    overflow-y: scroll;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+    border: 5px solid rgb(14, 16, 48);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    background-color: black;
+    box-shadow: 
+            0 0 rgb(14, 16, 48),
+            0 0 rgb(14, 16, 48), 
+            -10px 0 15px 0px rgb(14, 16, 48), 
+            10px 0 15px 0px rgb(14, 16, 48);
+
+
+  }
+  
+  .scroller1, .scroller2, .scroller3, .scroller4, .scroller5, .scroller6 {
+    height: 100%;
+    background-color: white;
+    /* border: 2px solid red; */
+    /* width: 200px; */
+    flex: 0 0 auto;
+    margin: 0 5px 0 5px;
+  }
+  
+  .headingForLearnMore {
+    margin: 1.2rem;
+    text-align: center;
+  }
+  
+  .linkForLearnMore {
+    text-decoration: none;
+    color: white;
+    margin: 2rem 2rem 2rem 1rem;
+    display: block;
+    text-align: center;
+  }
+  
+  .scroller::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .descriptionForLearnMore {
+    font-size: x-large;
+    text-align: left;
+    /* margin-top: 20px; */
+    padding: 0 300px 0 300px;
+    margin: 20px 0 20px 0;
+  }
+  
+  body {
+    background: rgb(111,23,183);
+    background: radial-gradient(circle, rgba(111,23,183,1) 14%, rgba(71,17,105,1) 31%, rgba(6,6,38,1) 72%);
+  }
+
+    .scrollerx1 {
+        width: auto;
+        height:100% ;
+    }
