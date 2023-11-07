@@ -1068,3 +1068,8 @@ body {
 .contactInstagram {
   border: none;
 }
+
+.learnMoreLink {
+  color: white;
+  text-decoration: none;
+}
